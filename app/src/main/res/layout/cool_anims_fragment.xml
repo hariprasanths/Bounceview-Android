@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/fragmentTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Fragment 1"
+                android:textAlignment="center"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Bounce"
+            android:background="#c6e8ef"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Horizontal flip"
+            android:background="#c6e8ef"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Vertical flip"
+            android:background="#c6e8ef"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Flicker"
+            android:background="#c6e8ef"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+</RelativeLayout>
