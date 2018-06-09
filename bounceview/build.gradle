@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'bounce-view'
+
+    publishedGroupId = 'hari.bounceview'
+    libraryName = 'Bounceview-Android'
+    artifact = 'bounceview'
+
+    libraryDescription = 'Customizable bounce animation for any view updation'
+
+    siteUrl = 'https://github.com/hariprasanths/Bounceview-Android'
+    gitUrl = 'https://github.com/hariprasanths/Bounceview-Android.git'
+
+    libraryVersion = '0.1.0'
+
+    developerId = 'hariprasanths'
+    developerName = 'Hariprasanth S'
+    developerEmail = 'shhariprasanth@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 26
 
@@ -33,3 +57,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
