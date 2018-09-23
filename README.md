@@ -2,6 +2,7 @@
 
 Customizable bounce animation for any view updation
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Bounceview--Android-green.svg?style=flat)](https://android-arsenal.com/details/1/7148)
 
 <div>
   <img src="http://res.cloudinary.com/ezio/image/upload/v1528468184/2.gif" alt="sample screenshot"/>
