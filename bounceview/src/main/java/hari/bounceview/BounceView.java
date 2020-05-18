@@ -3,7 +3,7 @@ package hari.bounceview;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Dialog;
-import android.support.design.widget.TabLayout;
+import com.google.android.material.tabs.TabLayout;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;

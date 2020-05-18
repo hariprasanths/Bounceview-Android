@@ -13,7 +13,7 @@ Customizable bounce animation for any view updation
 
 ```groovy
 dependencies {
-    implementation 'hari.bounceview:bounceview:0.1.0'
+    implementation 'hari.bounceview:bounceview:0.2.0'
 }
 ```
 
