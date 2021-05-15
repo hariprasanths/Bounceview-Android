@@ -11,6 +11,14 @@ Customizable bounce animation for any view updation
 # Getting Started
 <h4>In your build.gradle</h4>
 
+Maven Central
+```groovy
+dependencies {
+    implementation 'io.github.hariprasanths:bounceview-android:0.2.0'
+}
+```
+
+jcenter
 ```groovy
 dependencies {
     implementation 'hari.bounceview:bounceview:0.2.0'
